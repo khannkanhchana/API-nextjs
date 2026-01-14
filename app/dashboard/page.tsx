@@ -1,9 +1,7 @@
-import { PostCard } from "@/components/PostCard";
-import { PostResponse } from "../../lib/types/posts";
+
 import Link from "next/link";
 import { fetchPost } from "@/lib/data/fetchPosts";
-import { Card } from "@/components/ui/card";
-import { Key } from "lucide-react";
+
 import Cards from "@/components/Card";
 
 

@@ -1,10 +1,8 @@
-import Cards from "@/components/Card";
-import { CardClientList } from "@/components/CardClientList";
+
 import { LoadingCard } from "@/components/LoadingCard";
 import { Button } from "@/components/ui/button";
-import { fetchPost } from "@/lib/data/fetchPosts";
 import { Angry, ArrowRight, BookHeart } from "lucide-react";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
