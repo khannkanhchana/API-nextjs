@@ -38,3 +38,16 @@ export default function Home() {
     </>
   );
 }
+
+// "use client"
+// import { CardClientList } from "@/components/CardClientList";
+// import { fetchPost } from "@/lib/data/fetchPosts";
+
+// export default function Home() {
+//   return (
+//     <>
+//   <CardClientList fetchPost={fetchPost()}/>
+//     </>
+//   );
+// }
+
