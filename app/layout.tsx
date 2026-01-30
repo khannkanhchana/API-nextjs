@@ -3,6 +3,7 @@ import { Inter, Moulpali } from "next/font/google";
 import "./globals.css";
 import { Suspense } from "react";
 import { LoadingCard } from "@/components/LoadingCard";
+import { Toaster } from "sonner";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -31,9 +32,12 @@ export default function RootLayout({
         className={`${inter.variable} ${moulpali.variable} antialiased`}
       >
 
-        <Suspense fallback={<LoadingCard />}>
+        {/* <Suspense fallback={<LoadingCard />}>
           {children}
-        </Suspense>
+
+        </Suspense> */}
+        {children}
+        <Toaster/>
       </body>
     </html>
   );

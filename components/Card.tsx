@@ -1,5 +1,5 @@
 import { PostResponse } from "@/lib/types/posts"
-import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 import { Label } from "@radix-ui/react-label";
 import { Input } from "./ui/input";
@@ -19,9 +19,9 @@ export default function Cards({
         <CardDescription>
             {body}
         </CardDescription>
-        <CardAction>
+        <CardFooter>
           <Button variant="link">{userId} | {id}</Button>
-        </CardAction>
+        </CardFooter>
       </CardHeader>
       
     </Card>

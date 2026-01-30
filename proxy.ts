@@ -20,15 +20,7 @@ export default function proxy(request : NextRequest){
     
 }
  export const config = {
-  matcher: ['/dashboard/:path*', '/admin/:path*'],
+  matcher: ['/dashboards/:path*', '/admin/:path*'],
 }
 
 
-// export default function DashboardLayout({ children }) {
-//   return (
-//     <div>
-//       <h2>Dashboard</h2>
-//       {children}
-//     </div>
-//   );
-// }
